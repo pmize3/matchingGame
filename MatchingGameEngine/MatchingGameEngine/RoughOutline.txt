@@ -1,0 +1,21 @@
+--This is a rough outline of the game--
+
+-Matching Game is a puzzle game
+
+-Goal: Match 2 tiles in a grid together
+
+-Tile has 2 sides, a back and front
+	-Front of the tile is a random image sprite
+	-Back of tile is the same for all tiles
+
+-Player can tap on back of tiles to flip them over
+	-Up to 2 tiles can be flipped by user tap
+
+	-If successful match: matched tiles are removed from grid,
+	 additional time is added, and the user is rewarded points.
+
+	-Empty grid cells are filled by tiles shifting down to the empty cells
+
+	-If unsuccessful match: tiles are flipped and returned to their begining
+	 state
+
