@@ -14,7 +14,9 @@
 	-If successful match: matched tiles are removed from grid,
 	 additional time is added, and the user is rewarded points.
 
-	-Empty grid cells are filled by tiles shifting down to the empty cells
+	-Empty grid cells are filled by tiles shifting down to the
+	 empty cells (there are never any empty spaces in the grid
+	 after tiles are shifted down)
 
 	-If unsuccessful match: tiles are flipped and returned to their begining
 	 state
