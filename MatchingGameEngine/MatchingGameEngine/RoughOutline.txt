@@ -2,7 +2,7 @@
 
 -Matching Game is a puzzle game
 
--Goal: Match 2 tiles in a grid together
+-Goal: Match as many pairs of tiles in a grid together as possible within a certain time limit
 
 -Tile has 2 sides, a back and front
 	-Front of the tile is a random image sprite
