@@ -35,6 +35,9 @@ namespace MatchingGameEngine
         {
         }
 
+        // JM: It may be a good idea to create a class to represent a
+        //     column for easier future feature implementation. (i.e the
+        //     column may want to have a reference to the owning grid, etc.)
         public Tile(int pValue, int x, Collection<Tile> column)
         {
             _value = pValue;
@@ -49,6 +52,8 @@ namespace MatchingGameEngine
             return tile._value == this._value;
         }
 
+        // JM: Does it make sense to clear the value here? We may
+        // want to know the value of tiles even after we remove them.
         public void Remove()
         {
             _owner.Remove(this);
